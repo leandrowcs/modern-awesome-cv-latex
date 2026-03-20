@@ -90,11 +90,12 @@ Open `cv.pdf` - Done! ✨
 In `cv.tex`, modify the `\documentclass` line:
 
 ```latex
-\documentclass[localFont,alternative,green]{modern-awesome-cv}
+\documentclass[localFont,alternative,blue]{modern-awesome-cv}
 ```
 
 Available colors:
-- `green` (default)
+- `blue` (default)
+- `green`
 - `red`
 - `indigo`
 - `orange`

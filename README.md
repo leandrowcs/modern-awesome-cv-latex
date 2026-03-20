@@ -144,7 +144,8 @@ Template for adding experience in `section_03_experience.tex`:
 The template supports multiple color themes. In `cv.tex`, modify:
 
 ```latex
-\documentclass[localFont,alternative,green]{leandro-cv}  % Change 'green' to:
+\documentclass[localFont,alternative,blue]{modern-awesome-cv}  % Change 'blue' to:
+% - green
 % - red
 % - indigo
 % - orange
@@ -157,7 +158,7 @@ In `cv.tex`, the `\documentclass` accepts these options:
 
 - `localFont`: Use local font files from the `fonts/` directory
 - `alternative`: Alternative layout style
-- `green|red|indigo|orange|monochrome`: Color theme selector
+- `blue|green|red|indigo|orange|monochrome`: Color theme selector (default: blue)
 - `showLinks`: Display hyperlinks visibly (for digital PDF)
 
 ## Adding Content
