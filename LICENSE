@@ -1,0 +1,139 @@
+LaTeX Project Public License
+============================
+
+LICENSE TEXT
+---
+The LaTeX Project Public License (LPPL)
+=======================================
+
+Version 1.3c   2006-05-20
+
+Everyone is allowed to distribute verbatim copies of this license document,
+but modification of it is not allowed.
+
+PREAMBLE
+========
+
+The LaTeX Project Public License (LPPL) is the primary license under
+which the LaTeX kernel and the base LaTeX packages are distributed.
+
+You may use this license for any work of which you own the copyright and
+you wish to distribute. This license may be particularly suitable if your
+work is TeX-related. You will not use this license if your work is not
+related to TeX.
+
+The section WHETHER AND HOW TO DISTRIBUTE WORKS UNDER THIS LICENSE,
+below, describes the conditions under which the present license applies
+to distributed works.
+
+DEFINITIONS
+===========
+
+In this license document:
+
+- `Work` means any file or collection of files distributed by the
+  Copyright Holder either verbatim or with modifications, in whole or in
+  part.
+
+- `Derived Work` means any work that depends on (or is derived from) the
+  Work.
+
+- `Modification` means any procedure that produces a Derived Work under
+  this license.
+
+- `Author` or `Copyright Holder` means any individual or entity who owns
+  the copyright to the Work.
+
+- `Current Maintainer` means the individual or entity identified as such.
+
+- `You` or `Licensee` means any individual or entity using or otherwise
+  employing the Work or its derivative under the terms of this license.
+
+CONDITIONS UPON DISTRIBUTION AND MODIFICATION
+==============================================
+
+1. Activities other than distribution and modification of the Work are not
+   covered by this license; they are outside its scope. In particular, the
+   act of running the Work is not restricted.
+
+2. You may distribute a complete, unmodified copy of the Work as you
+   received it. Distribution of only part of the Work is not allowed,
+   except as covered in section 5 below.
+
+3. You may distribute a Derived Work under the terms of this license
+   provided that the entire Derived Work is covered by this license.
+
+4. You may not distribute the Work or any Derived Work.
+
+5. If the Work includes a MANIFEST file, either the MANIFEST file must be
+   distributed as-is, or you must create a new MANIFEST file that lists:
+   - the current Maintainer of the Derived Work;
+   - files added to (or removed from) the Work; and
+   - the main differences between the current version and the latest
+     Distributed version of the Work.
+
+6. You may not charge a fee for the distribution or use of the Work except
+   as authorized in section 7 below.
+
+7. You may distribute the Work or a Derived Work commercially, provided
+   that you do so under the terms of this license and you pay royalties
+   for the use of the Work as specified in this license.
+
+8. If you distribute a Derived Work, you must include a clearly legible
+   notice that the Work is a derived work, including the date of the
+   derivation.
+
+9. You must do one of the following:
+
+   (a) Distribute the source of the Derived Work accessible via a publicly
+       available method so that any User of the Derived Work will have the
+       source readily available in accordance with section 2 above.
+
+   (b) Supply the Users of the Derived Work with instructions for how to
+       obtain the source of the Work. For example, you could supply an
+       Internet address (Anonymous FTP or WWW) from which the User may
+       retrieve the source.
+
+   (c) Supply the Users of the Derived Work with a means to request the
+       source of the Work for a nominal fee. This could be done by supplying
+       an Internet address, or by offering to supply the source on a physical
+       medium (such as a CD) for a nominal fee.
+
+10. If the Derived Work only modifies portions of the Material, any Software
+    contained in the Derived Work is not permitted unless such software is
+    available in accordance with section 9 above.
+
+11. The Derived Work must contain one of the following notices:
+
+    - "This work is derived from the [WORK NAME] [VERSION], made available
+      under the LaTeX Project Public License" followed by a MANIFEST file
+      listing changes.
+
+    - "This work has been modified and is no longer endorsed by the Original
+      Author."
+
+WARRANTY
+========
+
+There is no warranty for the Work. Except when otherwise stated in writing,
+the Copyright Holder and/or other parties provide the Work "as is" without
+warranty of any kind, either expressed or implied, including, but not
+limited to, the implied warranties of merchantability and fitness for a
+particular purpose.
+
+LIMITATION OF LIABILITY
+=======================
+
+In no event shall the Copyright Holder or other parties be liable to You
+for damages, including any general, special, incidental or consequential
+damages arising out of any use of the Work or out of inability to use the
+Work.
+
+IMPORTANT NOTICE
+================
+
+This license places significant restrictions on the distribution of
+unmodified copies of the Work.
+
+For more information about the LaTeX Project Public License, please visit:
+http://www.latex-project.org/lppl.txt
