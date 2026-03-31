@@ -6,6 +6,12 @@ A customized, modern LaTeX CV template tailored for QA and Tech Professionals.
 
 This project provides a clean, professional CV template built with LaTeX. The template emphasizes clarity, readability, and modern design principles, making it ideal for sharing across LinkedIn, job applications, and professional networks.
 
+## ⚠️ Important Note
+
+**All personal data, professional experience, educational background, certifications, and expertise information in this template are completely fictional.** This CV is intended as a demonstration and reference example for the template structure and formatting only. The names, companies, dates, locations, and job responsibilities are entirely made-up and do not represent any real person or organization.
+
+If you are using this template for your own CV, please replace all the fictional data with your actual professional information before sharing or submitting it to employers or on professional networks.
+
 ## Features
 
 - 🎨 **Modern Design**: Clean layout with accent colors and section-based organization
@@ -17,7 +23,7 @@ This project provides a clean, professional CV template built with LaTeX. The te
 
 ## Project Structure
 
-```
+```text
 .
 ├── fonts/                                 # Local font files
 ├── cv.pdf                                 # Generated PDF output
@@ -71,16 +77,19 @@ cd modern-awesome-cv-latex
 ### Compiling the CV
 
 #### Using LuaTeX (Recommended)
+
 ```bash
 lualatex cv.tex
 ```
 
 #### Using XeTeX
+
 ```bash
 xelatex cv.tex
 ```
 
 #### Using latexmk (Automatic)
+
 ```bash
 latexmk -lualatex cv.tex
 ```
@@ -202,6 +211,7 @@ In `section_04_formation.tex`:
 ### Missing Font Errors
 
 **Solution**: Either:
+
 1. Place font files in the `fonts/` directory and use the `localFont` option
 2. Remove the `localFont` option to use system fonts
 

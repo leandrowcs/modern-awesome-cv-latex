@@ -5,23 +5,27 @@ Get your CV ready in 5 minutes!
 ## 1. Prerequisites
 
 Ensure you have:
+
 - **LuaTeX** or **XeTeX** installed
 - **Perl** (for optional `latexmk` support)
 
 ### Quick Install
 
 **Windows:**
+
 ```bash
 # Install MiKTeX: https://miktex.org/
 # Install Strawberry Perl: https://strawberryperl.com/
 ```
 
 **macOS:**
+
 ```bash
 brew install basictex
 ```
 
 **Linux (Ubuntu/Debian):**
+
 ```bash
 sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-latex-extra
 ```
@@ -54,7 +58,7 @@ Edit `cv.tex` with your details:
 Each section is in a separate file:
 
 | File | Purpose |
-|------|---------|
+| ------ | --------- |
 | `section_01_headline.tex` | Professional summary |
 | `section_02_competences.tex` | Skills and technologies |
 | `section_03_experience.tex` | Work experience |
@@ -65,16 +69,19 @@ Each section is in a separate file:
 ## 5. Compile Your CV
 
 ### Option A: LuaTeX (Recommended)
+
 ```bash
 lualatex cv.tex
 ```
 
 ### Option B: XeTeX
+
 ```bash
 xelatex cv.tex
 ```
 
 ### Option C: Automatic (with latexmk)
+
 ```bash
 latexmk -lualatex cv.tex
 ```
@@ -94,6 +101,7 @@ In `cv.tex`, modify the `\documentclass` line:
 ```
 
 Available colors:
+
 - `blue` (default)
 - `green`
 - `red`
@@ -138,7 +146,7 @@ In `section_02_competences.tex`:
 ## Troubleshooting
 
 | Problem | Solution |
-|---------|----------|
+| --------- | ---------- |
 | `fontspec requires XeTeX or LuaTeX` | Use `lualatex` instead of `pdflatex` |
 | `perl` script engine not found | Install Strawberry Perl (Windows) or perl module (Linux/macOS) |
 | Font not found | Remove `localFont` option or add fonts to `fonts/` directory |
